@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passage Recall Trainer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">TCS NQT 2026 Practice Companion</p>
+          <h1>Passage Recall Trainer</h1>
+          <p class="subcopy">Practice the passage-recall section with TCS-style passages, timed reading, and structured feedback.</p>
+        </div>
+        <div class="header-actions">
+          <button id="themeToggle" class="ghost-btn" type="button">🌙 Dark</button>
+        </div>
+      </header>
+
+      <nav class="nav-tabs" aria-label="Primary">
+        <button class="nav-btn active" data-section="dashboard" type="button">Dashboard</button>
+        <button class="nav-btn" data-section="practice" type="button">Passage Recall</button>
+        <button class="nav-btn" data-section="sentence" type="button">Sentence Completion</button>
+        <button class="nav-btn" data-section="review" type="button">Review</button>
+        <button class="nav-btn" data-section="statistics" type="button">Statistics</button>
+      </nav>
+
+      <main class="content">
+        <section id="dashboard" class="panel active">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Daily Overview</p>
+              <h2>Welcome back</h2>
+            </div>
+            <button id="startPracticeBtn" class="primary-btn" type="button">Start TCS Practice</button>
+          </div>
+          <div class="stats-grid">
+            <article class="stat-card accent-blue">
+              <span class="stat-label">Completed</span>
+              <strong id="completedStat">0</strong>
+            </article>
+            <article class="stat-card accent-purple">
+              <span class="stat-label">Best Score</span>
+              <strong id="bestScoreStat">0%</strong>
+            </article>
+            <article class="stat-card accent-green">
+              <span class="stat-label">Average</span>
+              <strong id="averageScoreStat">0%</strong>
+            </article>
+            <article class="stat-card accent-orange">
+              <span class="stat-label">Streak</span>
+              <strong id="streakStat">0</strong>
+            </article>
+          </div>
+          <div class="dashboard-row">
+            <article class="panel-card">
+              <div class="panel-heading compact">
+                <div>
+                  <p class="eyebrow">Practice Modes</p>
+                  <h3>Choose a path</h3>
+                </div>
+              </div>
+              <div class="mode-pills">
+                <button class="mode-pill active" data-mode="random" type="button">Random</button>
+                <button class="mode-pill" data-mode="sequential" type="button">Sequential</button>
+                <button class="mode-pill" data-mode="review" type="button">Review</button>
+              </div>
+            </article>
+            <article class="panel-card">
+              <div class="panel-heading compact">
+                <div>
+                  <p class="eyebrow">Recent Activity</p>
+                  <h3>Latest attempts</h3>
+                </div>
+              </div>
+              <ul id="recentAttempts" class="list"></ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="practice" class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Live Practice</p>
+              <h2>Read, recall, and write</h2>
+            </div>
+            <div class="practice-controls">
+              <label>
+                Difficulty
+                <select id="difficultySelect">
+                  <option value="easy">Easy</option>
+                  <option value="medium" selected>Medium</option>
+                  <option value="hard">Hard</option>
+                  <option value="all">All</option>
+                </select>
+              </label>
+              <label>
+                Mode
+                <select id="modeSelect">
+                  <option value="random">Random</option>
+                  <option value="sequential">Sequential</option>
+                </select>
+              </label>
+            </div>
+          </div>
+
+          <div class="exam-note">Exam focus: capture the main idea, key supporting points, and a short conclusion in clear order.</div>
+          <div class="progress-card">
+            <div class="progress-meta">
+              <span id="progressLabel">Ready to begin</span>
+              <span id="passageLabel">Select a passage</span>
+            </div>
+            <div class="progress-bar">
+              <div id="progressFill" class="progress-fill"></div>
+            </div>
+          </div>
+
+          <div class="timer-row">
+            <div class="timer-card">
+              <span class="timer-label">Reading</span>
+              <strong id="readingTimer">00:30</strong>
+            </div>
+            <div class="timer-card">
+              <span class="timer-label">Writing</span>
+              <strong id="writingTimer">01:30</strong>
+            </div>
+          </div>
+
+          <div class="practice-body">
+            <div id="passageContainer" class="passage-card">
+              <p class="eyebrow">Passage</p>
+              <h3 id="passageTitle">Choose a passage to begin</h3>
+              <p id="passageText">A fresh practice session will appear here.</p>
+            </div>
+            <div class="writing-card">
+              <div class="writing-header">
+                <div>
+                  <p class="eyebrow">Recall Response</p>
+                  <h3 id="phaseLabel">Reading phase</h3>
+                </div>
+                <div class="phase-chip" id="phaseChip">Read</div>
+              </div>
+              <textarea id="responseText" placeholder="Write the main idea, key points, and supporting details you remember here..."></textarea>
+              <div class="action-row">
+                <button id="submitBtn" class="primary-btn" type="button">Submit Response</button>
+                <button id="resetBtn" class="ghost-btn" type="button">Restart</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="resultContainer" class="result-card hidden"></div>
+        </section>
+
+        <section id="sentence" class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Sentence Completion</p>
+              <h2>TCS NQT Verbal Practice</h2>
+            </div>
+            <button id="sentenceStartBtn" class="primary-btn" type="button">Start Sentence Practice</button>
+          </div>
+
+          <div class="sentence-toolbar">
+            <label>
+              Mode
+              <select id="sentenceModeSelect">
+                <option value="sequential">Sequential</option>
+                <option value="random">Random</option>
+              </select>
+            </label>
+            <label>
+              Difficulty
+              <select id="sentenceDifficultyFilter">
+                <option value="All">All</option>
+                <option value="Easy">Easy</option>
+                <option value="Medium">Medium</option>
+                <option value="Hard">Hard</option>
+              </select>
+            </label>
+            <label>
+              Topic
+              <select id="sentenceTopicFilter">
+                <option value="All">All</option>
+                <option value="Corporate Communication">Corporate Communication</option>
+                <option value="Workplace Ethics">Workplace Ethics</option>
+                <option value="Customer Service">Customer Service</option>
+                <option value="Time Management">Time Management</option>
+                <option value="Critical Thinking">Critical Thinking</option>
+                <option value="Leadership">Leadership</option>
+                <option value="Business Communication">Business Communication</option>
+                <option value="Technology">Technology</option>
+                <option value="Professional Ethics">Professional Ethics</option>
+                <option value="Tone Recognition">Tone Recognition</option>
+                <option value="Innovation">Innovation</option>
+                <option value="Teamwork">Teamwork</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="progress-card">
+            <div class="progress-meta">
+              <span id="sentenceStatus">Select a question set and begin</span>
+              <span id="sentenceQuestionNumber">Question 0/0</span>
+            </div>
+            <div class="progress-bar">
+              <div id="sentenceProgressBar" class="progress-fill"></div>
+            </div>
+          </div>
+
+          <div class="sentence-layout">
+            <div id="sentenceQuestionContainer" class="sentence-main"></div>
+            <aside class="sentence-sidebar">
+              <div class="panel-card">
+                <div class="panel-heading compact">
+                  <div>
+                    <p class="eyebrow">Controls</p>
+                    <h3>Navigate</h3>
+                  </div>
+                </div>
+                <div class="action-row stack">
+                  <button id="sentencePrevBtn" class="ghost-btn" type="button">Previous</button>
+                  <button id="sentenceNextBtn" class="ghost-btn" type="button">Next</button>
+                  <button id="sentenceSubmitBtn" class="primary-btn" type="button">Submit</button>
+                  <button id="sentenceBookmarkBtn" class="ghost-btn" type="button">☆ Bookmark</button>
+                </div>
+              </div>
+              <div class="panel-card">
+                <div class="panel-heading compact">
+                  <div>
+                    <p class="eyebrow">Analytics</p>
+                    <h3>Performance</h3>
+                  </div>
+                </div>
+                <div id="sentenceAnalytics" class="stats-content"></div>
+              </div>
+              <div class="panel-card">
+                <div class="panel-heading compact">
+                  <div>
+                    <p class="eyebrow">Details</p>
+                    <h3>Current Question</h3>
+                  </div>
+                </div>
+                <div class="detail-box">
+                  <p><strong>Topic:</strong> <span id="sentenceTopicText">—</span></p>
+                  <p><strong>Difficulty:</strong> <span id="sentenceDifficultyText">—</span></p>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section id="review" class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Review Mode</p>
+              <h2>Inspect prior attempts</h2>
+            </div>
+          </div>
+          <div id="reviewList" class="review-list"></div>
+        </section>
+
+        <section id="statistics" class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Performance</p>
+              <h2>Statistics snapshot</h2>
+            </div>
+          </div>
+          <div id="statsContent" class="stats-content"></div>
+        </section>
+      </main>
+    </div>
+    <script src="app.js"></script>
+    <script src="questionLoader.js"></script>
+    <script src="storage.js"></script>
+    <script src="analytics.js"></script>
+    <script src="ui.js"></script>
+    <script src="sentence.js"></script>
+  </body>
+</html>

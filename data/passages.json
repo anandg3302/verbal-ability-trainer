@@ -1,0 +1,258 @@
+[
+  {
+    "id": 1,
+    "title": "The Power of Daily Habits",
+    "difficulty": "easy",
+    "topic": "self-improvement",
+    "keywords": ["habits", "discipline", "success", "consistency"],
+    "text": "Small habits shape the course of a person’s life. When people repeat useful actions every day, they slowly build strength, confidence, and discipline. A few minutes of practice each day can lead to remarkable progress over time. The secret is consistency, because steady effort often matters more than dramatic bursts of energy."
+  },
+  {
+    "id": 2,
+    "title": "The Importance of Reading",
+    "difficulty": "easy",
+    "topic": "education",
+    "keywords": ["reading", "knowledge", "imagination", "learning"],
+    "text": "Reading broadens human understanding and strengthens memory. It exposes people to new ideas, improves vocabulary, and sharpens imagination. Through books and articles, readers develop better thinking habits and become more capable of forming opinions about the world around them."
+  },
+  {
+    "id": 3,
+    "title": "How the Sun Helps Life",
+    "difficulty": "easy",
+    "topic": "science",
+    "keywords": ["sun", "energy", "plants", "warmth"],
+    "text": "The sun is one of the greatest sources of energy on Earth. It provides warmth and light that allow plants to grow, animals to survive, and people to live comfortably. Without sunlight, many ecosystems would struggle to function. The sun also influences weather patterns and helps maintain the balance of life on the planet."
+  },
+  {
+    "id": 4,
+    "title": "Benefits of Teamwork",
+    "difficulty": "easy",
+    "topic": "leadership",
+    "keywords": ["teamwork", "shared", "goals", "support"],
+    "text": "Teamwork improves performance because members share responsibilities and support one another. It helps solve problems quickly, strengthens trust, and creates a sense of collective purpose. When people work toward shared goals, they often achieve better results than they could individually."
+  },
+  {
+    "id": 5,
+    "title": "The Value of Time Management",
+    "difficulty": "medium",
+    "topic": "productivity",
+    "keywords": ["time", "planning", "priorities", "focus"],
+    "text": "Time management helps people use their limited hours with purpose. By planning carefully and setting clear priorities, they reduce stress and complete important work before deadlines. It also improves focus and prevents unnecessary distractions from interrupting productive effort."
+  },
+  {
+    "id": 6,
+    "title": "The Rise of Digital Learning",
+    "difficulty": "medium",
+    "topic": "technology",
+    "keywords": ["digital", "learning", "access", "platforms"],
+    "text": "Digital learning has transformed the way students and professionals study. Online platforms provide access to lessons, tutorials, and expert guidance from anywhere in the world. This flexibility helps people learn at their own pace and revisit difficult ideas whenever needed. As a result, education becomes more inclusive and practical for modern life."
+  },
+  {
+    "id": 7,
+    "title": "The Role of Clean Water",
+    "difficulty": "medium",
+    "topic": "health",
+    "keywords": ["water", "health", "disease", "clean"],
+    "text": "Clean water is essential for health and survival. It prevents disease, supports sanitation, and keeps communities strong. When people have access to safe water, children can attend school more regularly and families can spend less money on preventable illness."
+  },
+  {
+    "id": 8,
+    "title": "The Influence of Music",
+    "difficulty": "medium",
+    "topic": "culture",
+    "keywords": ["music", "emotion", "culture", "memory"],
+    "text": "Music has the power to move people in ways that words alone cannot. It can express emotion, shape mood, and strengthen cultural identity. Many people remember events, places, and feelings through songs. Because of this, music often acts as both entertainment and a powerful form of human connection."
+  },
+  {
+    "id": 9,
+    "title": "Why Cities Grow",
+    "difficulty": "medium",
+    "topic": "economy",
+    "keywords": ["cities", "jobs", "opportunities", "growth"],
+    "text": "Cities grow when they offer jobs, education, and opportunities that attract new residents. Transportation, housing, and public services all shape whether a city remains attractive or becomes overcrowded. Urban growth often brings both benefits and challenges, including traffic, pollution, and rising living costs. Effective planning is therefore essential for sustainable development."
+  },
+  {
+    "id": 10,
+    "title": "The Importance of Sleep",
+    "difficulty": "medium",
+    "topic": "health",
+    "keywords": ["sleep", "recovery", "memory", "energy"],
+    "text": "Sleep is important for the body and mind. It supports recovery, improves memory, and restores energy after a tiring day. Poor sleep can lead to poor concentration, lower mood, and slower reaction times. People who value sleep often feel healthier, calmer, and more prepared to face daily responsibilities."
+  },
+  {
+    "id": 11,
+    "title": "The Impact of Climate Change",
+    "difficulty": "hard",
+    "topic": "environment",
+    "keywords": ["climate", "change", "temperature", "extreme"],
+    "text": "Climate change is altering Earth’s systems and affecting both nature and people. Rising temperatures increase the chance of extreme weather, melting glaciers, and shifting rainfall patterns. These changes threaten food production, water supply, and the safety of coastal communities."
+  },
+  {
+    "id": 12,
+    "title": "The Promise of Renewable Energy",
+    "difficulty": "hard",
+    "topic": "technology",
+    "keywords": ["renewable", "energy", "solar", "wind"],
+    "text": "Renewable energy sources such as solar and wind provide cleaner alternatives to fossil fuels. They reduce pollution, lower greenhouse gas emissions, and offer long-term energy security. Although the initial investment can be high, these systems often become more cost effective over time. Many governments now view renewable power as a crucial part of future infrastructure."
+  },
+  {
+    "id": 13,
+    "title": "The Science of Memory",
+    "difficulty": "hard",
+    "topic": "psychology",
+    "keywords": ["memory", "retrieval", "association", "practice"],
+    "text": "Memory depends on how information is stored and later retrieved. People remember things more effectively when they connect new ideas to familiar concepts and revisit them through active practice. Association strengthens recall, while repetition helps move knowledge from short-term to long-term memory. Understanding this process can improve learning and performance in school and at work."
+  },
+  {
+    "id": 14,
+    "title": "Leadership in Uncertain Times",
+    "difficulty": "hard",
+    "topic": "leadership",
+    "keywords": ["leadership", "uncertain", "vision", "trust"],
+    "text": "Strong leadership becomes crucial in uncertain times. Leaders must provide a clear vision, communicate calmly, and inspire trust when circumstances change quickly. People look to leaders for reassurance, direction, and practical decisions during difficult moments."
+  },
+  {
+    "id": 15,
+    "title": "The Impact of Social Media",
+    "difficulty": "hard",
+    "topic": "society",
+    "keywords": ["social", "media", "attention", "connection"],
+    "text": "Social media has changed the way people communicate and share information. It creates fast forms of connection, but it also competes for attention and can encourage instant reactions rather than careful thought. The platforms influence public opinion, relationships, and even political discussion. Responsible use is therefore essential for both personal wellbeing and social balance."
+  },
+  {
+    "id": 16,
+    "title": "The Value of Cultural Heritage",
+    "difficulty": "hard",
+    "topic": "culture",
+    "keywords": ["culture", "heritage", "identity", "tradition"],
+    "text": "Cultural heritage preserves the identity of communities across generations. Through language, art, festivals, and architecture, people keep memories of the past alive. Such traditions offer a sense of belonging and help younger generations understand where they come from. Protecting heritage is therefore important for both continuity and social cohesion."
+  },
+  {
+    "id": 17,
+    "title": "The Power of Curiosity",
+    "difficulty": "easy",
+    "topic": "learning",
+    "keywords": ["curiosity", "questions", "discovery", "learning"],
+    "text": "Curiosity drives people to ask questions and seek answers. It encourages exploration, discovery, and a deeper understanding of the world around them. Curious minds are often more inventive and open to new experiences. When curiosity is nurtured, learning becomes exciting rather than forced."
+  },
+  {
+    "id": 18,
+    "title": "Why Forests Matter",
+    "difficulty": "easy",
+    "topic": "environment",
+    "keywords": ["forests", "oxygen", "wildlife", "balance"],
+    "text": "Forests play a vital role in maintaining environmental balance. They absorb carbon dioxide, release oxygen, and provide shelter for many forms of wildlife. Healthy forests also protect soil from erosion and support rainfall patterns. Their value extends beyond nature because human communities benefit from their resources and stability."
+  },
+  {
+    "id": 19,
+    "title": "The Role of Empathy",
+    "difficulty": "medium",
+    "topic": "society",
+    "keywords": ["empathy", "understanding", "kindness", "relationships"],
+    "text": "Empathy helps people connect with others on a human level. It allows one person to understand the feelings and concerns of another without judgment. This quality improves relationships, reduces conflict, and creates a more compassionate society. Kindness supported by empathy often leads to stronger trust and cooperation in communities."
+  },
+  {
+    "id": 20,
+    "title": "Balancing Work and Rest",
+    "difficulty": "medium",
+    "topic": "wellbeing",
+    "keywords": ["balance", "rest", "productivity", "wellbeing"],
+    "text": "Balancing work and rest is essential for long-term wellbeing. People who keep working without pause often feel exhausted and less productive over time. Short breaks, healthy routines, and adequate rest can improve concentration and overall satisfaction. A steady balance supports both personal health and professional performance."
+  },
+  {
+    "id": 21,
+    "title": "The Influence of Public Transport",
+    "difficulty": "hard",
+    "topic": "infrastructure",
+    "keywords": ["transport", "traffic", "cities", "access"],
+    "text": "Public transport systems can greatly improve life in modern cities. They reduce traffic congestion, lower pollution, and give people access to jobs and services without depending on private cars. Efficient transit networks also support social inclusion by making movement easier for older adults and low-income households. Investment in public transport often yields long-term economic and environmental rewards."
+  },
+  {
+    "id": 22,
+    "title": "The Importance of Resilience",
+    "difficulty": "hard",
+    "topic": "psychology",
+    "keywords": ["resilience", "adversity", "growth", "strength"],
+    "text": "Resilience is the ability to recover from adversity and continue moving forward. People who develop resilience often learn from setbacks rather than being defeated by them. This mindset encourages growth, patience, and emotional strength. In difficult periods, resilience helps individuals adapt and maintain hope for the future."
+  },
+  {
+    "id": 23,
+    "title": "The Future of Artificial Intelligence",
+    "difficulty": "hard",
+    "topic": "technology",
+    "keywords": ["artificial", "intelligence", "automation", "impact"],
+    "text": "Artificial intelligence is shaping the future of work, health, and communication. It can automate repetitive tasks, improve medical diagnosis, and support better decision making in many industries. However, its growth also raises questions about ethics, privacy, and job displacement. Society must prepare carefully to manage both the opportunities and risks of this technology."
+  },
+  {
+    "id": 24,
+    "title": "The Value of Lifelong Learning",
+    "difficulty": "medium",
+    "topic": "education",
+    "keywords": ["learning", "skills", "growth", "adapt"],
+    "text": "Lifelong learning helps people stay relevant as the world changes around them. By continuing to build skills and gain new knowledge, individuals can adapt to new careers, technologies, and social expectations. This habit encourages mental agility and long-term personal growth. Lifelong learning is especially important in a fast-moving modern economy."
+  },
+  {
+    "id": 25,
+    "title": "Why Punctuality Matters",
+    "difficulty": "easy",
+    "topic": "discipline",
+    "keywords": ["punctuality", "discipline", "respect", "time"],
+    "text": "Punctuality is a sign of discipline and respect for other people. When individuals arrive on time, they show responsibility and help institutions function smoothly. Being punctual also reduces confusion, saves time, and strengthens trust in personal and professional relationships. It is a simple habit that reflects maturity and reliability."
+  },
+  {
+    "id": 26,
+    "title": "The Importance of Clear Communication",
+    "difficulty": "easy",
+    "topic": "communication",
+    "keywords": ["communication", "clarity", "trust", "understanding"],
+    "text": "Clear communication is essential for avoiding misunderstanding and resolving conflicts. When people express ideas in a simple and thoughtful way, others can respond with greater trust and understanding. Good communication improves teamwork, strengthens relationships, and makes decision-making easier in both everyday life and professional settings."
+  },
+  {
+    "id": 27,
+    "title": "The Role of Youth in Society",
+    "difficulty": "medium",
+    "topic": "society",
+    "keywords": ["youth", "innovation", "change", "future"],
+    "text": "Young people often bring energy, creativity, and fresh perspectives to society. Their ideas can challenge old assumptions and spark innovation in areas such as education, technology, and public service. As the future generation, youth play an important role in shaping social progress and driving positive change."
+  },
+  {
+    "id": 28,
+    "title": "Why Public Hygiene Matters",
+    "difficulty": "medium",
+    "topic": "health",
+    "keywords": ["hygiene", "cleanliness", "disease", "health"],
+    "text": "Public hygiene is crucial for preventing disease and maintaining a healthy environment. Clean streets, safe sanitation systems, and proper waste disposal protect communities from illness and contamination. When people follow basic hygiene practices, they contribute to the well-being of their families and the wider society."
+  },
+  {
+    "id": 29,
+    "title": "The Effect of Inflation",
+    "difficulty": "hard",
+    "topic": "economy",
+    "keywords": ["inflation", "prices", "purchasing", "income"],
+    "text": "Inflation affects the purchasing power of people by increasing the prices of goods and services. When income does not rise at the same pace, households find it harder to afford essentials. Inflation can also create pressure on businesses and governments, making careful financial planning more important than ever."
+  },
+  {
+    "id": 30,
+    "title": "The Importance of Civic Responsibility",
+    "difficulty": "hard",
+    "topic": "governance",
+    "keywords": ["civic", "responsibility", "community", "participation"],
+    "text": "Civic responsibility means doing one’s part for the welfare of the community. It includes obeying laws, respecting public spaces, and participating in social and democratic activities. When citizens act responsibly, they strengthen public institutions and help create a more stable and fair society."
+  },
+  {
+    "id": 31,
+    "title": "The Value of Mental Strength",
+    "difficulty": "hard",
+    "topic": "wellbeing",
+    "keywords": ["mental", "strength", "resilience", "stress"],
+    "text": "Mental strength helps people deal with stress, setbacks, and uncertainty without giving up easily. It allows individuals to stay calm, think clearly, and recover from difficult experiences. Developing mental strength is just as important as physical fitness because it supports long-term health and confidence."
+  },
+  {
+    "id": 32,
+    "title": "Why Conservation of Nature Matters",
+    "difficulty": "medium",
+    "topic": "environment",
+    "keywords": ["conservation", "nature", "resources", "future"],
+    "text": "Conservation of nature is necessary to protect the resources that human life depends on. Forests, rivers, soil, and wildlife all support ecological balance and provide benefits to communities. When people value conservation, they help ensure that future generations can enjoy a healthier and more sustainable planet."
+  }
+]

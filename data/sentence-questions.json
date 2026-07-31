@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "question": "The HR manager requested all employees to ______ the online survey before Monday.",
+    "options": ["complete", "delete", "ignore", "postpone"],
+    "answer": "complete",
+    "difficulty": "Easy",
+    "topic": "Corporate Communication",
+    "explanation": "Employees complete a survey before a deadline."
+  },
+  {
+    "id": 2,
+    "question": "The team leader emphasized that punctuality is a sign of ______ in the workplace.",
+    "options": ["discipline", "confusion", "delay", "neglect"],
+    "answer": "discipline",
+    "difficulty": "Easy",
+    "topic": "Workplace Ethics",
+    "explanation": "Discipline reflects responsibility and reliability at work."
+  },
+  {
+    "id": 3,
+    "question": "The client was impressed by the company's ______ service during the implementation phase.",
+    "options": ["prompt", "careless", "formal", "uncertain"],
+    "answer": "prompt",
+    "difficulty": "Easy",
+    "topic": "Customer Service",
+    "explanation": "Prompt service means fast and effective support."
+  },
+  {
+    "id": 4,
+    "question": "To improve efficiency, the manager asked the staff to ______ their tasks according to priority.",
+    "options": ["organize", "misplace", "postpone", "avoid"],
+    "answer": "organize",
+    "difficulty": "Easy",
+    "topic": "Time Management",
+    "explanation": "Organize tasks by priority is a practical time-management step."
+  },
+  {
+    "id": 5,
+    "question": "The proposal was accepted because it showed clear ______ and practical reasoning.",
+    "options": ["logic", "confusion", "waste", "hesitation"],
+    "answer": "logic",
+    "difficulty": "Medium",
+    "topic": "Critical Thinking",
+    "explanation": "Logic refers to sound reasoning and coherence."
+  },
+  {
+    "id": 6,
+    "question": "The supervisor expected the team to ______ the issue calmly instead of reacting emotionally.",
+    "options": ["address", "ignore", "complicate", "delay"],
+    "answer": "address",
+    "difficulty": "Medium",
+    "topic": "Leadership",
+    "explanation": "Address an issue means deal with it directly and constructively."
+  },
+  {
+    "id": 7,
+    "question": "Before launching the product, the company conducted a detailed ______ of customer expectations.",
+    "options": ["analysis", "accident", "distraction", "delay"],
+    "answer": "analysis",
+    "difficulty": "Medium",
+    "topic": "Business Communication",
+    "explanation": "Analysis means careful examination of information."
+  },
+  {
+    "id": 8,
+    "question": "The new software tool was introduced to ______ collaboration among remote teams.",
+    "options": ["facilitate", "prevent", "reduce", "disrupt"],
+    "answer": "facilitate",
+    "difficulty": "Medium",
+    "topic": "Technology",
+    "explanation": "Facilitate means make something easier."
+  },
+  {
+    "id": 9,
+    "question": "The finance team made a ______ decision to reduce unnecessary expenses.",
+    "options": ["practical", "chaotic", "uncertain", "random"],
+    "answer": "practical",
+    "difficulty": "Medium",
+    "topic": "Professional Ethics",
+    "explanation": "Practical decisions are sensible and useful."
+  },
+  {
+    "id": 10,
+    "question": "The manager's tone remained ______ even when the team made a serious mistake.",
+    "options": ["calm", "hostile", "sarcastic", "rude"],
+    "answer": "calm",
+    "difficulty": "Medium",
+    "topic": "Tone Recognition",
+    "explanation": "A calm tone is controlled and composed."
+  },
+  {
+    "id": 11,
+    "question": "The company adopted a new strategy to ______ innovation across all departments.",
+    "options": ["encourage", "suppress", "delay", "dismiss"],
+    "answer": "encourage",
+    "difficulty": "Medium",
+    "topic": "Innovation",
+    "explanation": "Encourage innovation means support new ideas."
+  },
+  {
+    "id": 12,
+    "question": "The consultant gave a ______ report that helped the board make an informed decision.",
+    "options": ["useful", "confusing", "unreliable", "vague"],
+    "answer": "useful",
+    "difficulty": "Easy",
+    "topic": "Business Communication",
+    "explanation": "A useful report provides helpful information."
+  },
+  {
+    "id": 13,
+    "question": "The policy was designed to ensure ______ among employees and protect confidential information.",
+    "options": ["fairness", "conflict", "disorder", "delay"],
+    "answer": "fairness",
+    "difficulty": "Medium",
+    "topic": "Professional Ethics",
+    "explanation": "Fairness promotes justice and equal treatment."
+  },
+  {
+    "id": 14,
+    "question": "The employee was praised for showing ______ when handling a difficult customer.",
+    "options": ["patience", "rudeness", "panic", "ignorance"],
+    "answer": "patience",
+    "difficulty": "Easy",
+    "topic": "Customer Service",
+    "explanation": "Patience is essential when dealing with dissatisfied customers."
+  },
+  {
+    "id": 15,
+    "question": "The team agreed to ______ the deadline so that the final review could be completed properly.",
+    "options": ["extend", "ignore", "cancel", "reduce"],
+    "answer": "extend",
+    "difficulty": "Medium",
+    "topic": "Time Management",
+    "explanation": "Extend the deadline means give more time."
+  },
+  {
+    "id": 16,
+    "question": "The speaker's message was so ______ that the audience immediately understood the main point.",
+    "options": ["clear", "ambiguous", "lengthy", "formal"],
+    "answer": "clear",
+    "difficulty": "Easy",
+    "topic": "Business Communication",
+    "explanation": "Clear language is easy to understand."
+  },
+  {
+    "id": 17,
+    "question": "The company maintained a strong ______ culture by encouraging open discussion and mutual respect.",
+    "options": ["collaborative", "hostile", "individualistic", "temporary"],
+    "answer": "collaborative",
+    "difficulty": "Medium",
+    "topic": "Teamwork",
+    "explanation": "Collaborative culture supports cooperation and joint effort."
+  },
+  {
+    "id": 18,
+    "question": "The manager asked the staff to ______ the report before sending it to the client.",
+    "options": ["review", "discard", "repeat", "delay"],
+    "answer": "review",
+    "difficulty": "Easy",
+    "topic": "Corporate Communication",
+    "explanation": "Review the report before sending it."
+  },
+  {
+    "id": 19,
+    "question": "The new policy was introduced to ______ the use of confidential data in the workplace.",
+    "options": ["secure", "waste", "ignore", "misplace"],
+    "answer": "secure",
+    "difficulty": "Hard",
+    "topic": "Professional Ethics",
+    "explanation": "Secure means protect from unauthorized access or misuse."
+  },
+  {
+    "id": 20,
+    "question": "The team was able to solve the problem quickly because each member contributed with ______.",
+    "options": ["cooperation", "conflict", "delay", "resistance"],
+    "answer": "cooperation",
+    "difficulty": "Medium",
+    "topic": "Teamwork",
+    "explanation": "Cooperation is essential for successful teamwork."
+  }
+]
