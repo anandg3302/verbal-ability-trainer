@@ -1,182 +1,902 @@
 [
   {
     "id": 1,
-    "question": "The HR manager requested all employees to ______ the online survey before Monday.",
-    "options": ["complete", "delete", "ignore", "postpone"],
-    "answer": "complete",
+    "question": "The manager appreciated her ______ approach to solving customer complaints.",
+    "options": ["careless", "proactive", "hesitant", "ordinary"],
+    "answer": "proactive",
     "difficulty": "Easy",
     "topic": "Corporate Communication",
-    "explanation": "Employees complete a survey before a deadline."
+    "explanation": "The sentence describes taking initiative to solve problems, making 'proactive' the correct choice. In corporate environments, managers value employees who anticipate issues and address them before they escalate."
   },
   {
     "id": 2,
-    "question": "The team leader emphasized that punctuality is a sign of ______ in the workplace.",
-    "options": ["discipline", "confusion", "delay", "neglect"],
-    "answer": "discipline",
+    "question": "Despite the project's tight deadline, the team remained ______ and delivered quality work.",
+    "options": ["anxious", "focused", "distracted", "overwhelmed"],
+    "answer": "focused",
     "difficulty": "Easy",
-    "topic": "Workplace Ethics",
-    "explanation": "Discipline reflects responsibility and reliability at work."
+    "topic": "Teamwork",
+    "explanation": "'Focused' indicates concentration and determination despite pressure. This aligns with the positive outcome of delivering quality work."
   },
   {
     "id": 3,
-    "question": "The client was impressed by the company's ______ service during the implementation phase.",
-    "options": ["prompt", "careless", "formal", "uncertain"],
-    "answer": "prompt",
+    "question": "The CEO's ______ leadership style encouraged employees to share innovative ideas without fear.",
+    "options": ["authoritarian", "approachable", "dismissive", "indifferent"],
+    "answer": "approachable",
     "difficulty": "Easy",
-    "topic": "Customer Service",
-    "explanation": "Prompt service means fast and effective support."
+    "topic": "Leadership",
+    "explanation": "An 'approachable' leader creates psychological safety for innovation. The phrase 'without fear' supports this interpretation."
   },
   {
     "id": 4,
-    "question": "To improve efficiency, the manager asked the staff to ______ their tasks according to priority.",
-    "options": ["organize", "misplace", "postpone", "avoid"],
-    "answer": "organize",
+    "question": "The company's ______ to sustainability impressed investors and boosted brand reputation.",
+    "options": ["ignorance", "commitment", "reluctance", "indifference"],
+    "answer": "commitment",
     "difficulty": "Easy",
-    "topic": "Time Management",
-    "explanation": "Organize tasks by priority is a practical time-management step."
+    "topic": "Business Ethics",
+    "explanation": "'Commitment' shows dedication to a cause, which aligns with impressing investors and boosting reputation."
   },
   {
     "id": 5,
-    "question": "The proposal was accepted because it showed clear ______ and practical reasoning.",
-    "options": ["logic", "confusion", "waste", "hesitation"],
-    "answer": "logic",
-    "difficulty": "Medium",
-    "topic": "Critical Thinking",
-    "explanation": "Logic refers to sound reasoning and coherence."
+    "question": "The new software's ______ interface made it easy for employees to adopt without extensive training.",
+    "options": ["complex", "intuitive", "confusing", "outdated"],
+    "answer": "intuitive",
+    "difficulty": "Easy",
+    "topic": "Technology",
+    "explanation": "'Intuitive' means easy to understand and use, matching the context of easy adoption."
   },
   {
     "id": 6,
-    "question": "The supervisor expected the team to ______ the issue calmly instead of reacting emotionally.",
-    "options": ["address", "ignore", "complicate", "delay"],
-    "answer": "address",
+    "question": "She handled the customer's complaints with ______, turning a negative situation into an opportunity.",
+    "options": ["carelessness", "grace", "rudeness", "apathy"],
+    "answer": "grace",
     "difficulty": "Medium",
-    "topic": "Leadership",
-    "explanation": "Address an issue means deal with it directly and constructively."
+    "topic": "Customer Service",
+    "explanation": "'Grace' means elegance and composure under pressure. This demonstrates professional skill in service recovery."
   },
   {
     "id": 7,
-    "question": "Before launching the product, the company conducted a detailed ______ of customer expectations.",
-    "options": ["analysis", "accident", "distraction", "delay"],
-    "answer": "analysis",
-    "difficulty": "Medium",
-    "topic": "Business Communication",
-    "explanation": "Analysis means careful examination of information."
+    "question": "The team's ______ to detail ensured zero errors in the final deliverable.",
+    "options": ["negligence", "attention", "disregard", "carelessness"],
+    "answer": "attention",
+    "difficulty": "Easy",
+    "topic": "Professional Vocabulary",
+    "explanation": "'Attention to detail' is a professional phrase meaning careful focus on precision."
   },
   {
     "id": 8,
-    "question": "The new software tool was introduced to ______ collaboration among remote teams.",
-    "options": ["facilitate", "prevent", "reduce", "disrupt"],
-    "answer": "facilitate",
+    "question": "His ______ response to criticism showed emotional maturity and a growth mindset.",
+    "options": ["defensive", "receptive", "hostile", "dismissive"],
+    "answer": "receptive",
     "difficulty": "Medium",
-    "topic": "Technology",
-    "explanation": "Facilitate means make something easier."
+    "topic": "Workplace Communication",
+    "explanation": "'Receptive' means open to receiving feedback, indicating emotional intelligence."
   },
   {
     "id": 9,
-    "question": "The finance team made a ______ decision to reduce unnecessary expenses.",
-    "options": ["practical", "chaotic", "uncertain", "random"],
-    "answer": "practical",
-    "difficulty": "Medium",
-    "topic": "Professional Ethics",
-    "explanation": "Practical decisions are sensible and useful."
+    "question": "The startup's ______ business model disrupted the traditional market.",
+    "options": ["conventional", "innovative", "outdated", "typical"],
+    "answer": "innovative",
+    "difficulty": "Easy",
+    "topic": "Innovation",
+    "explanation": "'Innovative' means introducing new ideas and methods, which causes market disruption."
   },
   {
     "id": 10,
-    "question": "The manager's tone remained ______ even when the team made a serious mistake.",
-    "options": ["calm", "hostile", "sarcastic", "rude"],
-    "answer": "calm",
+    "question": "Despite facing numerous obstacles, her ______ determination helped her reach the top position.",
+    "options": ["wavering", "unwavering", "doubtful", "hesitant"],
+    "answer": "unwavering",
     "difficulty": "Medium",
-    "topic": "Tone Recognition",
-    "explanation": "A calm tone is controlled and composed."
+    "topic": "Leadership",
+    "explanation": "'Unwavering' means steady and constant, showing persistence despite challenges."
   },
   {
     "id": 11,
-    "question": "The company adopted a new strategy to ______ innovation across all departments.",
-    "options": ["encourage", "suppress", "delay", "dismiss"],
-    "answer": "encourage",
+    "question": "The project manager's ______ planning prevented costly mistakes and delays.",
+    "options": ["vague", "meticulous", "casual", "loose"],
+    "answer": "meticulous",
     "difficulty": "Medium",
-    "topic": "Innovation",
-    "explanation": "Encourage innovation means support new ideas."
+    "topic": "Time Management",
+    "explanation": "'Meticulous' means extremely careful and precise, leading to prevention of errors and delays."
   },
   {
     "id": 12,
-    "question": "The consultant gave a ______ report that helped the board make an informed decision.",
-    "options": ["useful", "confusing", "unreliable", "vague"],
-    "answer": "useful",
+    "question": "Her ______ work ethic earned her promotion within just two years.",
+    "options": ["lazy", "exemplary", "poor", "average"],
+    "answer": "exemplary",
     "difficulty": "Easy",
-    "topic": "Business Communication",
-    "explanation": "A useful report provides helpful information."
+    "topic": "Corporate Communication",
+    "explanation": "'Exemplary' means serving as an excellent example, deserving recognition and rewards."
   },
   {
     "id": 13,
-    "question": "The policy was designed to ensure ______ among employees and protect confidential information.",
-    "options": ["fairness", "conflict", "disorder", "delay"],
-    "answer": "fairness",
+    "question": "The negotiator's ______ approach helped find a middle ground that satisfied both parties.",
+    "options": ["rigid", "diplomatic", "aggressive", "stubborn"],
+    "answer": "diplomatic",
     "difficulty": "Medium",
-    "topic": "Professional Ethics",
-    "explanation": "Fairness promotes justice and equal treatment."
+    "topic": "Problem Solving",
+    "explanation": "'Diplomatic' means tactful and skilled in handling relationships, enabling successful compromise."
   },
   {
     "id": 14,
-    "question": "The employee was praised for showing ______ when handling a difficult customer.",
-    "options": ["patience", "rudeness", "panic", "ignorance"],
-    "answer": "patience",
-    "difficulty": "Easy",
-    "topic": "Customer Service",
-    "explanation": "Patience is essential when dealing with dissatisfied customers."
+    "question": "The company's ______ response to market changes kept it ahead of competitors.",
+    "options": ["slow", "agile", "sluggish", "delayed"],
+    "answer": "agile",
+    "difficulty": "Medium",
+    "topic": "Innovation",
+    "explanation": "'Agile' means quick to respond and adapt, maintaining competitive advantage."
   },
   {
     "id": 15,
-    "question": "The team agreed to ______ the deadline so that the final review could be completed properly.",
-    "options": ["extend", "ignore", "cancel", "reduce"],
-    "answer": "extend",
+    "question": "His ______ communication style often left his team confused about expectations.",
+    "options": ["clear", "ambiguous", "precise", "explicit"],
+    "answer": "ambiguous",
     "difficulty": "Medium",
-    "topic": "Time Management",
-    "explanation": "Extend the deadline means give more time."
+    "topic": "Workplace Communication",
+    "explanation": "'Ambiguous' means unclear and open to multiple interpretations, causing confusion."
   },
   {
     "id": 16,
-    "question": "The speaker's message was so ______ that the audience immediately understood the main point.",
-    "options": ["clear", "ambiguous", "lengthy", "formal"],
-    "answer": "clear",
+    "question": "The training program's ______ content was relevant to employees' day-to-day responsibilities.",
+    "options": ["irrelevant", "practical", "theoretical", "abstract"],
+    "answer": "practical",
     "difficulty": "Easy",
-    "topic": "Business Communication",
-    "explanation": "Clear language is easy to understand."
+    "topic": "Professional Vocabulary",
+    "explanation": "'Practical' means useful and applicable to real situations."
   },
   {
     "id": 17,
-    "question": "The company maintained a strong ______ culture by encouraging open discussion and mutual respect.",
-    "options": ["collaborative", "hostile", "individualistic", "temporary"],
+    "question": "She demonstrated ______ leadership by empowering her team members to make decisions.",
+    "options": ["autocratic", "collaborative", "dictatorial", "controlling"],
     "answer": "collaborative",
     "difficulty": "Medium",
-    "topic": "Teamwork",
-    "explanation": "Collaborative culture supports cooperation and joint effort."
+    "topic": "Leadership",
+    "explanation": "'Collaborative' means working together and encouraging shared decision-making."
   },
   {
     "id": 18,
-    "question": "The manager asked the staff to ______ the report before sending it to the client.",
-    "options": ["review", "discard", "repeat", "delay"],
-    "answer": "review",
-    "difficulty": "Easy",
-    "topic": "Corporate Communication",
-    "explanation": "Review the report before sending it."
+    "question": "The customer service representative's ______ tone helped ease the frustrated client's anger.",
+    "options": ["rude", "empathetic", "dismissive", "indifferent"],
+    "answer": "empathetic",
+    "difficulty": "Medium",
+    "topic": "Customer Service",
+    "explanation": "'Empathetic' means showing understanding and compassion, which calms upset customers."
   },
   {
     "id": 19,
-    "question": "The new policy was introduced to ______ the use of confidential data in the workplace.",
-    "options": ["secure", "waste", "ignore", "misplace"],
-    "answer": "secure",
-    "difficulty": "Hard",
-    "topic": "Professional Ethics",
-    "explanation": "Secure means protect from unauthorized access or misuse."
+    "question": "The organization's ______ policies ensure fair treatment of all employees.",
+    "options": ["discriminatory", "inclusive", "biased", "partial"],
+    "answer": "inclusive",
+    "difficulty": "Easy",
+    "topic": "Business Ethics",
+    "explanation": "'Inclusive' means including everyone equally, supporting fairness and equality."
   },
   {
     "id": 20,
-    "question": "The team was able to solve the problem quickly because each member contributed with ______.",
-    "options": ["cooperation", "conflict", "delay", "resistance"],
-    "answer": "cooperation",
+    "question": "His ______ presentation skills captured the audience's attention throughout the conference.",
+    "options": ["monotonous", "engaging", "dull", "boring"],
+    "answer": "engaging",
+    "difficulty": "Easy",
+    "topic": "Corporate Communication",
+    "explanation": "'Engaging' means capturing and holding attention through interesting delivery."
+  },
+  {
+    "id": 21,
+    "question": "The team's ______ effort resulted in exceeding the quarterly sales target by 30%.",
+    "options": ["halfhearted", "collective", "individual", "minimal"],
+    "answer": "collective",
+    "difficulty": "Easy",
+    "topic": "Teamwork",
+    "explanation": "'Collective' means combined effort from all members, achieving significant results."
+  },
+  {
+    "id": 22,
+    "question": "Despite market volatility, the company maintained ______ growth over five consecutive years.",
+    "options": ["stagnant", "steady", "erratic", "declining"],
+    "answer": "steady",
+    "difficulty": "Medium",
+    "topic": "Corporate Communication",
+    "explanation": "'Steady' means consistent and stable growth without significant fluctuations."
+  },
+  {
+    "id": 23,
+    "question": "The developer's ______ code reduced system errors and improved application performance.",
+    "options": ["sloppy", "clean", "messy", "inefficient"],
+    "answer": "clean",
+    "difficulty": "Medium",
+    "topic": "Technology",
+    "explanation": "'Clean code' is a professional term meaning well-structured, readable, and maintainable programming."
+  },
+  {
+    "id": 24,
+    "question": "Her ______ thinking helped identify root causes instead of addressing surface symptoms.",
+    "options": ["superficial", "analytical", "careless", "hasty"],
+    "answer": "analytical",
+    "difficulty": "Medium",
+    "topic": "Problem Solving",
+    "explanation": "'Analytical' thinking means examining problems deeply and systematically to find underlying causes."
+  },
+  {
+    "id": 25,
+    "question": "The manager's ______ feedback provided clear guidance for employee improvement.",
+    "options": ["vague", "constructive", "harsh", "unhelpful"],
+    "answer": "constructive",
+    "difficulty": "Medium",
+    "topic": "Workplace Communication",
+    "explanation": "'Constructive feedback' is specific, actionable guidance aimed at improvement, not criticism."
+  },
+  {
+    "id": 26,
+    "question": "The company's ______ to innovation led to the development of three groundbreaking products.",
+    "options": ["resistance", "dedication", "opposition", "indifference"],
+    "answer": "dedication",
+    "difficulty": "Easy",
+    "topic": "Innovation",
+    "explanation": "'Dedication' shows unwavering commitment to pursuing innovation as a priority."
+  },
+  {
+    "id": 27,
+    "question": "His ______ approach to conflict resolution prevented workplace tensions from escalating.",
+    "options": ["aggressive", "proactive", "confrontational", "passive"],
+    "answer": "proactive",
+    "difficulty": "Medium",
+    "topic": "Workplace Communication",
+    "explanation": "'Proactive' means taking initiative to prevent problems before they become serious."
+  },
+  {
+    "id": 28,
+    "question": "The training program's ______ duration allowed employees to balance learning with regular duties.",
+    "options": ["excessive", "reasonable", "prolonged", "tedious"],
+    "answer": "reasonable",
+    "difficulty": "Easy",
+    "topic": "Time Management",
+    "explanation": "'Reasonable' means fair and appropriate in scope, not overwhelming."
+  },
+  {
+    "id": 29,
+    "question": "The CEO's ______ vision for the company inspired employees to work towards ambitious goals.",
+    "options": ["unclear", "compelling", "vague", "mundane"],
+    "answer": "compelling",
+    "difficulty": "Medium",
+    "topic": "Leadership",
+    "explanation": "'Compelling' means powerful and persuasive, inspiring action and commitment."
+  },
+  {
+    "id": 30,
+    "question": "She handled the crisis with ______, demonstrating nerves of steel under pressure.",
+    "options": ["panic", "composure", "anxiety", "fear"],
+    "answer": "composure",
+    "difficulty": "Medium",
+    "topic": "Leadership",
+    "explanation": "'Composure' means calmness and self-control in difficult situations."
+  },
+  {
+    "id": 31,
+    "question": "The project documentation was ______ and easy to follow for new team members.",
+    "options": ["complex", "comprehensive", "confusing", "vague"],
+    "answer": "comprehensive",
+    "difficulty": "Medium",
+    "topic": "Professional Vocabulary",
+    "explanation": "'Comprehensive' means complete and thorough, covering all necessary information."
+  },
+  {
+    "id": 32,
+    "question": "The HR department's ______ policies created a supportive work environment.",
+    "options": ["rigid", "progressive", "outdated", "conservative"],
+    "answer": "progressive",
+    "difficulty": "Medium",
+    "topic": "Business Ethics",
+    "explanation": "'Progressive' means modern and forward-thinking, supporting employee well-being."
+  },
+  {
+    "id": 33,
+    "question": "Despite budget constraints, the team ______ completed the project on schedule.",
+    "options": ["barely", "miraculously", "somehow", "ingeniously"],
+    "answer": "ingeniously",
+    "difficulty": "Hard",
+    "topic": "Problem Solving",
+    "explanation": "'Ingeniously' means cleverly and inventively, achieving success through creative solutions despite limitations."
+  },
+  {
+    "id": 34,
+    "question": "The new recruit's ______ attitude made her popular among colleagues.",
+    "options": ["pessimistic", "optimistic", "cynical", "negative"],
+    "answer": "optimistic",
+    "difficulty": "Easy",
+    "topic": "Teamwork",
+    "explanation": "'Optimistic' means hopeful and positive, creating an uplifting workplace atmosphere."
+  },
+  {
+    "id": 35,
+    "question": "His ______ work habits allowed him to maintain a healthy work-life balance.",
+    "options": ["irregular", "disciplined", "chaotic", "disorganized"],
+    "answer": "disciplined",
+    "difficulty": "Medium",
+    "topic": "Time Management",
+    "explanation": "'Disciplined' means organized and controlled, enabling better management of time and priorities."
+  },
+  {
+    "id": 36,
+    "question": "The consultant's ______ analysis provided valuable insights for strategic planning.",
+    "options": ["superficial", "in-depth", "cursory", "hasty"],
+    "answer": "in-depth",
+    "difficulty": "Medium",
+    "topic": "Problem Solving",
+    "explanation": "'In-depth' means thorough and comprehensive, yielding meaningful and actionable insights."
+  },
+  {
+    "id": 37,
+    "question": "The company's ______ customer support resolved 95% of issues on first contact.",
+    "options": ["indifferent", "responsive", "slow", "apathetic"],
+    "answer": "responsive",
+    "difficulty": "Easy",
+    "topic": "Customer Service",
+    "explanation": "'Responsive' means quick to react and address needs, resulting in high customer satisfaction."
+  },
+  {
+    "id": 38,
+    "question": "She was known for her ______ integrity in all business dealings.",
+    "options": ["questionable", "unwavering", "doubtful", "inconsistent"],
+    "answer": "unwavering",
+    "difficulty": "Medium",
+    "topic": "Business Ethics",
+    "explanation": "'Unwavering integrity' means steady and consistent adherence to ethical principles."
+  },
+  {
+    "id": 39,
+    "question": "The innovation team's ______ brainstorming sessions generated numerous breakthrough ideas.",
+    "options": ["restrictive", "free-flowing", "controlled", "limited"],
+    "answer": "free-flowing",
+    "difficulty": "Medium",
+    "topic": "Innovation",
+    "explanation": "'Free-flowing' brainstorming means unrestricted creative expression, encouraging diverse ideas."
+  },
+  {
+    "id": 40,
+    "question": "Despite the setback, the team remained ______ and continued pursuing their objectives.",
+    "options": ["discouraged", "resolute", "defeated", "disheartened"],
+    "answer": "resolute",
     "difficulty": "Medium",
     "topic": "Teamwork",
-    "explanation": "Cooperation is essential for successful teamwork."
+    "explanation": "'Resolute' means determined and unwavering in purpose, maintaining focus despite difficulties."
+  },
+  {
+    "id": 41,
+    "question": "The manager's ______ communication style left no room for misunderstanding.",
+    "options": ["ambiguous", "lucid", "vague", "unclear"],
+    "answer": "lucid",
+    "difficulty": "Hard",
+    "topic": "Workplace Communication",
+    "explanation": "'Lucid' means clear and easy to understand, ensuring precise communication."
+  },
+  {
+    "id": 42,
+    "question": "The organization's ______ approach to employee development resulted in high retention rates.",
+    "options": ["neglectful", "holistic", "superficial", "minimal"],
+    "answer": "holistic",
+    "difficulty": "Hard",
+    "topic": "Leadership",
+    "explanation": "'Holistic' means comprehensive and considering all aspects, leading to effective development."
+  },
+  {
+    "id": 43,
+    "question": "His ______ work environment helped maximize productivity and creativity.",
+    "options": ["chaotic", "organized", "cluttered", "messy"],
+    "answer": "organized",
+    "difficulty": "Easy",
+    "topic": "Time Management",
+    "explanation": "'Organized' work environment reduces distractions and enables focused work."
+  },
+  {
+    "id": 44,
+    "question": "The team's ______ to the project reflected their passion and commitment.",
+    "options": ["aversion", "dedication", "reluctance", "resistance"],
+    "answer": "dedication",
+    "difficulty": "Easy",
+    "topic": "Teamwork",
+    "explanation": "'Dedication' shows deep commitment and emotional investment in project success."
+  },
+  {
+    "id": 45,
+    "question": "Her ______ problem-solving approach combined creativity with practical reasoning.",
+    "options": ["rigid", "flexible", "narrow", "limited"],
+    "answer": "flexible",
+    "difficulty": "Medium",
+    "topic": "Problem Solving",
+    "explanation": "'Flexible' approach means adapting strategies based on situation, combining multiple methods."
+  },
+  {
+    "id": 46,
+    "question": "The product launch was ______ successful, exceeding all market expectations.",
+    "options": ["barely", "remarkably", "minimally", "partly"],
+    "answer": "remarkably",
+    "difficulty": "Easy",
+    "topic": "Innovation",
+    "explanation": "'Remarkably' means notably and impressively, indicating exceptional success."
+  },
+  {
+    "id": 47,
+    "question": "The company's ______ supply chain management reduced operational costs by 20%.",
+    "options": ["inefficient", "optimized", "wasteful", "sluggish"],
+    "answer": "optimized",
+    "difficulty": "Medium",
+    "topic": "Corporate Communication",
+    "explanation": "'Optimized' means improved for maximum efficiency and effectiveness."
+  },
+  {
+    "id": 48,
+    "question": "His ______ presentation lacked engaging visuals and compelling narrative.",
+    "options": ["dynamic", "mundane", "vibrant", "spirited"],
+    "answer": "mundane",
+    "difficulty": "Medium",
+    "topic": "Corporate Communication",
+    "explanation": "'Mundane' means dull and ordinary, lacking interest and innovation."
+  },
+  {
+    "id": 49,
+    "question": "The organization's ______ training programs enhanced employee skills and confidence.",
+    "options": ["inadequate", "robust", "minimal", "superficial"],
+    "answer": "robust",
+    "difficulty": "Medium",
+    "topic": "Professional Vocabulary",
+    "explanation": "'Robust' means strong, comprehensive, and well-designed for effectiveness."
+  },
+  {
+    "id": 50,
+    "question": "Despite challenges, the startup maintained ______ in reaching its mission.",
+    "options": ["doubt", "conviction", "hesitation", "uncertainty"],
+    "answer": "conviction",
+    "difficulty": "Hard",
+    "topic": "Leadership",
+    "explanation": "'Conviction' means strong belief and determination, maintaining purpose despite obstacles."
+  },
+  {
+    "id": 51,
+    "question": "The team's ______ effort during the crisis demonstrated their unwavering loyalty to the organization.",
+    "options": ["half-hearted", "united", "divided", "fragmented"],
+    "answer": "united",
+    "difficulty": "Easy",
+    "topic": "Teamwork",
+    "explanation": "'United' effort shows cohesion and working together toward a common goal despite adversity."
+  },
+  {
+    "id": 52,
+    "question": "Her ______ communication with stakeholders prevented misunderstandings and built trust.",
+    "options": ["vague", "transparent", "evasive", "indirect"],
+    "answer": "transparent",
+    "difficulty": "Medium",
+    "topic": "Workplace Communication",
+    "explanation": "'Transparent' communication means open and honest sharing of information, building credibility."
+  },
+  {
+    "id": 53,
+    "question": "The organization's ______ culture encouraged employees to voice concerns without fear of retaliation.",
+    "options": ["oppressive", "safe", "restrictive", "hostile"],
+    "answer": "safe",
+    "difficulty": "Easy",
+    "topic": "Business Ethics",
+    "explanation": "'Safe' culture means employees feel protected and secure to express themselves openly."
+  },
+  {
+    "id": 54,
+    "question": "Despite initial skepticism, his ______ results convinced the entire team of the strategy's effectiveness.",
+    "options": ["marginal", "tangible", "negligible", "insignificant"],
+    "answer": "tangible",
+    "difficulty": "Hard",
+    "topic": "Innovation",
+    "explanation": "'Tangible' results are concrete and measurable, providing undeniable evidence of success."
+  },
+  {
+    "id": 55,
+    "question": "The manager's ______ expectations for team performance motivated employees to excel.",
+    "options": ["unrealistic", "high", "vague", "unclear"],
+    "answer": "high",
+    "difficulty": "Easy",
+    "topic": "Leadership",
+    "explanation": "'High expectations' inspire employees to perform better and achieve excellence."
+  },
+  {
+    "id": 56,
+    "question": "The new policy was ______ accepted by employees because it addressed their long-standing concerns.",
+    "options": ["reluctantly", "readily", "slowly", "hesitantly"],
+    "answer": "readily",
+    "difficulty": "Medium",
+    "topic": "Corporate Communication",
+    "explanation": "'Readily' means willingly and eagerly, showing positive reception to the policy."
+  },
+  {
+    "id": 57,
+    "question": "Her ______ approach to training ensured that all employees, regardless of skill level, understood the material.",
+    "options": ["rigid", "inclusive", "selective", "exclusive"],
+    "answer": "inclusive",
+    "difficulty": "Medium",
+    "topic": "Professional Vocabulary",
+    "explanation": "'Inclusive' training ensures everyone is accommodated and can learn effectively."
+  },
+  {
+    "id": 58,
+    "question": "The project's ______ timeline created unnecessary pressure on the team.",
+    "options": ["flexible", "unrealistic", "reasonable", "generous"],
+    "answer": "unrealistic",
+    "difficulty": "Medium",
+    "topic": "Time Management",
+    "explanation": "'Unrealistic' timeline is unachievable and creates stress for team members."
+  },
+  {
+    "id": 59,
+    "question": "The consultant's ______ observations about market trends proved invaluable for strategic planning.",
+    "options": ["superficial", "insightful", "casual", "careless"],
+    "answer": "insightful",
+    "difficulty": "Medium",
+    "topic": "Problem Solving",
+    "explanation": "'Insightful' observations show deep understanding and provide valuable perspective."
+  },
+  {
+    "id": 60,
+    "question": "Despite the company's rapid growth, management remained ______ about maintaining core values.",
+    "options": ["indifferent", "vigilant", "careless", "relaxed"],
+    "answer": "vigilant",
+    "difficulty": "Hard",
+    "topic": "Business Ethics",
+    "explanation": "'Vigilant' means watchful and attentive, ensuring values aren't compromised during growth."
+  },
+  {
+    "id": 61,
+    "question": "The employee's ______ skills in problem-solving earned her a role in the leadership program.",
+    "options": ["basic", "exceptional", "ordinary", "average"],
+    "answer": "exceptional",
+    "difficulty": "Easy",
+    "topic": "Problem Solving",
+    "explanation": "'Exceptional' means outstanding and above average, warranting special recognition."
+  },
+  {
+    "id": 62,
+    "question": "The company's ______ to customer feedback led to significant product improvements.",
+    "options": ["indifference", "responsiveness", "neglect", "apathy"],
+    "answer": "responsiveness",
+    "difficulty": "Medium",
+    "topic": "Customer Service",
+    "explanation": "'Responsiveness' to feedback shows willingness to listen and improve based on customer input."
+  },
+  {
+    "id": 63,
+    "question": "The team members' ______ skills allowed them to work efficiently despite geographical distances.",
+    "options": ["poor", "collaboration", "isolation", "division"],
+    "answer": "collaboration",
+    "difficulty": "Medium",
+    "topic": "Teamwork",
+    "explanation": "'Collaboration' skills enable team members to work together effectively, even remotely."
+  },
+  {
+    "id": 64,
+    "question": "Her ______ feedback mechanism helped identify performance gaps early and address them promptly.",
+    "options": ["delayed", "regular", "sporadic", "inconsistent"],
+    "answer": "regular",
+    "difficulty": "Easy",
+    "topic": "Workplace Communication",
+    "explanation": "'Regular' feedback provides consistent communication for ongoing improvement."
+  },
+  {
+    "id": 65,
+    "question": "The organization's ______ investment in employee wellness programs improved overall productivity.",
+    "options": ["minimal", "substantial", "negligible", "token"],
+    "answer": "substantial",
+    "difficulty": "Medium",
+    "topic": "Corporate Communication",
+    "explanation": "'Substantial' investment shows serious commitment to employee well-being and morale."
+  },
+  {
+    "id": 66,
+    "question": "Despite setbacks, the startup's ______ founders remained committed to their vision.",
+    "options": ["doubtful", "determined", "uncertain", "wavering"],
+    "answer": "determined",
+    "difficulty": "Easy",
+    "topic": "Leadership",
+    "explanation": "'Determined' founders show resolve and commitment despite difficulties."
+  },
+  {
+    "id": 67,
+    "question": "The technology team's ______ implementation of the new system reduced downtime significantly.",
+    "options": ["careless", "seamless", "chaotic", "disruptive"],
+    "answer": "seamless",
+    "difficulty": "Medium",
+    "topic": "Technology",
+    "explanation": "'Seamless' implementation means smooth integration with minimal disruption."
+  },
+  {
+    "id": 68,
+    "question": "The manager's ______ recognition of team achievements boosted morale and motivation.",
+    "options": ["delayed", "timely", "rare", "absent"],
+    "answer": "timely",
+    "difficulty": "Easy",
+    "topic": "Leadership",
+    "explanation": "'Timely' recognition means acknowledging achievements when they happen, maximizing impact."
+  },
+  {
+    "id": 69,
+    "question": "The company's ______ approach to diversity hiring strengthened team perspectives and innovation.",
+    "options": ["selective", "deliberate", "biased", "narrow"],
+    "answer": "deliberate",
+    "difficulty": "Medium",
+    "topic": "Business Ethics",
+    "explanation": "'Deliberate' approach means intentional and purposeful efforts to build diversity."
+  },
+  {
+    "id": 70,
+    "question": "The consultant's ______ recommendations, backed by data, transformed the company's operations.",
+    "options": ["vague", "strategic", "unclear", "arbitrary"],
+    "answer": "strategic",
+    "difficulty": "Medium",
+    "topic": "Problem Solving",
+    "explanation": "'Strategic' recommendations align with organizational goals and business objectives."
+  },
+  {
+    "id": 71,
+    "question": "Her ______ listening skills helped her understand client needs deeply and provide tailored solutions.",
+    "options": ["poor", "active", "passive", "selective"],
+    "answer": "active",
+    "difficulty": "Medium",
+    "topic": "Customer Service",
+    "explanation": "'Active' listening means engaging fully with the speaker to understand their needs completely."
+  },
+  {
+    "id": 72,
+    "question": "The team's ______ communication protocols prevented errors and ensured smooth project execution.",
+    "options": ["loose", "standardized", "informal", "ad-hoc"],
+    "answer": "standardized",
+    "difficulty": "Medium",
+    "topic": "Workplace Communication",
+    "explanation": "'Standardized' protocols create consistency and clarity across all team communications."
+  },
+  {
+    "id": 73,
+    "question": "The organization's ______ culture of continuous learning kept employees competitive in the job market.",
+    "options": ["resistant", "fostering", "discouraging", "ignoring"],
+    "answer": "fostering",
+    "difficulty": "Hard",
+    "topic": "Innovation",
+    "explanation": "'Fostering' culture means actively promoting and encouraging continuous development."
+  },
+  {
+    "id": 74,
+    "question": "Despite external pressures, the team maintained ______ focus on delivering quality output.",
+    "options": ["wavering", "unwavering", "shifting", "divided"],
+    "answer": "unwavering",
+    "difficulty": "Easy",
+    "topic": "Teamwork",
+    "explanation": "'Unwavering' focus means maintaining consistent dedication despite distractions or obstacles."
+  },
+  {
+    "id": 75,
+    "question": "The employee's ______ attitude toward mentoring junior staff reflected her commitment to team development.",
+    "options": ["reluctant", "enthusiastic", "indifferent", "passive"],
+    "answer": "enthusiastic",
+    "difficulty": "Easy",
+    "topic": "Leadership",
+    "explanation": "'Enthusiastic' attitude shows genuine eagerness and positive energy for helping others grow."
+  },
+  {
+    "id": 76,
+    "question": "The company's ______ response to the market crisis prevented significant financial loss.",
+    "options": ["delayed", "swift", "hesitant", "cautious"],
+    "answer": "swift",
+    "difficulty": "Easy",
+    "topic": "Corporate Communication",
+    "explanation": "'Swift' response means quick action taken immediately when needed."
+  },
+  {
+    "id": 77,
+    "question": "Her ______ project management ensured that all stakeholders remained informed throughout the process.",
+    "options": ["poor", "transparent", "opaque", "secretive"],
+    "answer": "transparent",
+    "difficulty": "Medium",
+    "topic": "Time Management",
+    "explanation": "'Transparent' management means keeping all parties informed and involved openly."
+  },
+  {
+    "id": 78,
+    "question": "The team's ______ contribution to corporate social responsibility initiatives gained community recognition.",
+    "options": ["minimal", "significant", "negligible", "token"],
+    "answer": "significant",
+    "difficulty": "Easy",
+    "topic": "Business Ethics",
+    "explanation": "'Significant' contribution means substantial and meaningful impact on CSR programs."
+  },
+  {
+    "id": 79,
+    "question": "The innovator's ______ thinking challenged conventional approaches and drove organizational change.",
+    "options": ["conservative", "unconventional", "traditional", "orthodox"],
+    "answer": "unconventional",
+    "difficulty": "Hard",
+    "topic": "Innovation",
+    "explanation": "'Unconventional' thinking breaks from established norms and creates new possibilities."
+  },
+  {
+    "id": 80,
+    "question": "Despite tight budgets, the manager's ______ resource allocation maximized project outcomes.",
+    "options": ["wasteful", "prudent", "reckless", "extravagant"],
+    "answer": "prudent",
+    "difficulty": "Hard",
+    "topic": "Time Management",
+    "explanation": "'Prudent' allocation means wise and careful management of limited resources."
+  },
+  {
+    "id": 81,
+    "question": "The customer's ______ feedback highlighted areas for improvement in service delivery.",
+    "options": ["vague", "specific", "unclear", "general"],
+    "answer": "specific",
+    "difficulty": "Easy",
+    "topic": "Customer Service",
+    "explanation": "'Specific' feedback provides clear details that enable targeted improvements."
+  },
+  {
+    "id": 82,
+    "question": "The executive's ______ strategy pivoted the company toward emerging market opportunities.",
+    "options": ["stagnant", "dynamic", "static", "rigid"],
+    "answer": "dynamic",
+    "difficulty": "Hard",
+    "topic": "Leadership",
+    "explanation": "'Dynamic' strategy means adaptable and responsive to changing market conditions."
+  },
+  {
+    "id": 83,
+    "question": "The training program's ______ delivery method accommodated different learning styles effectively.",
+    "options": ["uniform", "hybrid", "single", "rigid"],
+    "answer": "hybrid",
+    "difficulty": "Hard",
+    "topic": "Professional Vocabulary",
+    "explanation": "'Hybrid' delivery combines multiple methods to suit diverse learner needs."
+  },
+  {
+    "id": 84,
+    "question": "Her ______ contributions to team discussions enriched problem-solving processes.",
+    "options": ["silent", "thoughtful", "minimal", "sporadic"],
+    "answer": "thoughtful",
+    "difficulty": "Medium",
+    "topic": "Workplace Communication",
+    "explanation": "'Thoughtful' contributions are well-considered and add meaningful value to discussions."
+  },
+  {
+    "id": 85,
+    "question": "The organization's ______ compliance with regulatory standards protected its reputation and operations.",
+    "options": ["lax", "strict", "loose", "informal"],
+    "answer": "strict",
+    "difficulty": "Easy",
+    "topic": "Business Ethics",
+    "explanation": "'Strict' compliance means rigorous adherence to all regulatory requirements."
+  },
+  {
+    "id": 86,
+    "question": "Despite initial resistance, the team's ______ adaptation to new processes improved efficiency.",
+    "options": ["slow", "quick", "reluctant", "gradual"],
+    "answer": "quick",
+    "difficulty": "Medium",
+    "topic": "Teamwork",
+    "explanation": "'Quick' adaptation means rapidly adjusting to new situations and systems."
+  },
+  {
+    "id": 87,
+    "question": "The project manager's ______ risk assessment prevented potential project failures.",
+    "options": ["superficial", "thorough", "cursory", "hasty"],
+    "answer": "thorough",
+    "difficulty": "Medium",
+    "topic": "Problem Solving",
+    "explanation": "'Thorough' assessment means comprehensive evaluation of all possible risks and scenarios."
+  },
+  {
+    "id": 88,
+    "question": "The employee's ______ initiative to improve workplace safety demonstrated leadership qualities.",
+    "options": ["reluctant", "proactive", "passive", "forced"],
+    "answer": "proactive",
+    "difficulty": "Easy",
+    "topic": "Corporate Communication",
+    "explanation": "'Proactive' initiative means taking action before being asked, showing leadership."
+  },
+  {
+    "id": 89,
+    "question": "The consultant's ______ understanding of industry trends positioned the company for future success.",
+    "options": ["limited", "comprehensive", "basic", "superficial"],
+    "answer": "comprehensive",
+    "difficulty": "Medium",
+    "topic": "Innovation",
+    "explanation": "'Comprehensive' understanding covers all aspects and nuances of industry trends."
+  },
+  {
+    "id": 90,
+    "question": "The team's ______ commitment to deadlines built trust with clients and stakeholders.",
+    "options": ["inconsistent", "unwavering", "erratic", "unreliable"],
+    "answer": "unwavering",
+    "difficulty": "Easy",
+    "topic": "Teamwork",
+    "explanation": "'Unwavering' commitment means consistent and reliable follow-through on promises."
+  },
+  {
+    "id": 91,
+    "question": "Her ______ communication style made complex information accessible to non-technical stakeholders.",
+    "options": ["technical", "clear", "jargon-heavy", "complex"],
+    "answer": "clear",
+    "difficulty": "Medium",
+    "topic": "Workplace Communication",
+    "explanation": "'Clear' communication breaks down complex ideas into understandable terms."
+  },
+  {
+    "id": 92,
+    "question": "The company's ______ investment in technology infrastructure enhanced operational capabilities.",
+    "options": ["minimal", "substantial", "insufficient", "inadequate"],
+    "answer": "substantial",
+    "difficulty": "Medium",
+    "topic": "Technology",
+    "explanation": "'Substantial' investment shows serious commitment to technological advancement."
+  },
+  {
+    "id": 93,
+    "question": "Despite competing priorities, the manager maintained ______ focus on strategic objectives.",
+    "options": ["divided", "laser-sharp", "scattered", "diffused"],
+    "answer": "laser-sharp",
+    "difficulty": "Hard",
+    "topic": "Leadership",
+    "explanation": "'Laser-sharp' focus means intense, unwavering concentration on key priorities."
+  },
+  {
+    "id": 94,
+    "question": "The organization's ______ approach to customer service turned detractors into brand advocates.",
+    "options": ["average", "exceptional", "ordinary", "mediocre"],
+    "answer": "exceptional",
+    "difficulty": "Medium",
+    "topic": "Customer Service",
+    "explanation": "'Exceptional' service goes above and beyond expectations, creating loyalty."
+  },
+  {
+    "id": 95,
+    "question": "The team's ______ collaboration on the research project resulted in a groundbreaking publication.",
+    "options": ["fragmented", "seamless", "disjointed", "chaotic"],
+    "answer": "seamless",
+    "difficulty": "Medium",
+    "topic": "Teamwork",
+    "explanation": "'Seamless' collaboration means smooth integration of team members' efforts."
+  },
+  {
+    "id": 96,
+    "question": "The executive's ______ decision-making ability earned respect from board members and investors.",
+    "options": ["hesitant", "decisive", "indecisive", "vacillating"],
+    "answer": "decisive",
+    "difficulty": "Easy",
+    "topic": "Leadership",
+    "explanation": "'Decisive' decision-making shows confidence and clear judgment in important matters."
+  },
+  {
+    "id": 97,
+    "question": "The employee's ______ approach to learning new skills accelerated her career progression.",
+    "options": ["reluctant", "eager", "passive", "indifferent"],
+    "answer": "eager",
+    "difficulty": "Easy",
+    "topic": "Professional Vocabulary",
+    "explanation": "'Eager' approach shows enthusiasm and willingness to continuously develop."
+  },
+  {
+    "id": 98,
+    "question": "The organization's ______ values were consistently reflected in employee actions and decisions.",
+    "options": ["unclear", "core", "vague", "ambiguous"],
+    "answer": "core",
+    "difficulty": "Medium",
+    "topic": "Business Ethics",
+    "explanation": "'Core' values are fundamental principles that guide organizational behavior."
+  },
+  {
+    "id": 99,
+    "question": "Despite market uncertainties, the company maintained ______ confidence in its long-term strategy.",
+    "options": ["wavering", "steadfast", "doubtful", "shaken"],
+    "answer": "steadfast",
+    "difficulty": "Hard",
+    "topic": "Innovation",
+    "explanation": "'Steadfast' confidence means unwavering belief in strategy despite external challenges."
+  },
+  {
+    "id": 100,
+    "question": "The team's ______ to excellence became the driving force behind the company's market leadership.",
+    "options": ["indifference", "commitment", "apathy", "reluctance"],
+    "answer": "commitment",
+    "difficulty": "Easy",
+    "topic": "Corporate Communication",
+    "explanation": "'Commitment' to excellence means dedicated pursuit of highest quality in all endeavors."
   }
 ]
