@@ -255,4 +255,86 @@
     "keywords": ["conservation", "nature", "resources", "future"],
     "text": "Conservation of nature is necessary to protect the resources that human life depends on. Forests, rivers, soil, and wildlife all support ecological balance and provide benefits to communities. When people value conservation, they help ensure that future generations can enjoy a healthier and more sustainable planet."
   }
+  ,
+  {
+    "id": 33,
+    "title": "Aman & Workplace Communication",
+    "difficulty": "easy",
+    "topic": "communication",
+    "keywords": ["communication", "workplace", "report", "clarification"],
+    "text": "On his first day at work, Aman received an email from his manager asking him to prepare a short report before the team meeting. Instead of making assumptions, Aman carefully read the instructions and asked a few questions to clarify his doubts. He completed the report on time and his manager appreciated his clear communication and willingness to confirm the requirements before starting the task."
+  },
+  {
+    "id": 34,
+    "title": "Teamwork & Induction Program",
+    "difficulty": "easy",
+    "topic": "leadership",
+    "keywords": ["teamwork", "induction", "cooperation", "participation"],
+    "text": "During the induction program, a group of new hires was asked to build a paper tower using only paper and tape. Each member contributed different ideas, and they divided the work among themselves. By listening to one another and working together, they completed the task successfully. The activity showed that teamwork works best when everyone participates."
+  },
+  {
+    "id": 35,
+    "title": "Rohan & AI Training",
+    "difficulty": "medium",
+    "topic": "technology",
+    "keywords": ["AI", "training", "productivity", "automation"],
+    "text": "Rohan had been working in a software company for 3 years. As the market became more competitive, the company introduced AI training for all employees to improve efficiency. They learned to use AI for drafting emails, summarizing reports, and preparing presentations. Within a few months, productivity improved and employees could spend more time solving complex problems."
+  },
+  {
+    "id": 36,
+    "title": "Mrs. Sharma & Customer Service",
+    "difficulty": "medium",
+    "topic": "customer service",
+    "keywords": ["bank", "customer", "service", "support"],
+    "text": "Mrs. Sharma, a 75-year-old woman, wanted to open a bank account, but could not visit the branch because of health issues. After learning about her situation, the bank arranged for an executive to visit her home with the required documents. The account was opened successfully without any inconvenience. The bank's prompt support and customer-friendly approach earned the trust and appreciation of the family."
+  },
+  {
+    "id": 37,
+    "title": "Neha & Remote Work",
+    "difficulty": "medium",
+    "topic": "productivity",
+    "keywords": ["remote work", "self-discipline", "schedule", "productivity"],
+    "text": "Neha started working from home after her company introduced a remote work policy. In the beginning, she found it difficult to stay focused because of household distractions. She created a daily schedule, followed fixed working hours, and avoided unnecessary breaks. Within a few weeks, her productivity improved, and she completed her tasks on time. She realized that self-discipline and self-motivation are the keys to successful remote working."
+  },
+  {
+    "id": 38,
+    "title": "Artificial Intelligence in Daily Life",
+    "difficulty": "easy",
+    "topic": "technology",
+    "keywords": ["AI", "daily life", "voice assistant", "recommendations"],
+    "text": "Many people use artificial intelligence without even realizing it. When we search for information online, get movie recommendations, or use voice assistants on our phones, AI is working in the background. It learns from our preferences and helps provide faster and more useful results. As AI becomes a part of our daily lives, understanding how to use it wisely is becoming an important skill for everybody."
+  },
+  {
+    "id": 39,
+    "title": "India's Chandrayaan Mission",
+    "difficulty": "medium",
+    "topic": "science",
+    "keywords": ["Chandrayaan", "space", "science", "teamwork"],
+    "text": "India's Chandrayaan mission attracted attention across the world for its successful exploration of the moon. The mission showed the country's growing strength in space technology and scientific research. It also inspired many young students to develop an interest in science and space exploration. The success of Chandrayaan proved that with careful planning, teamwork, and determination, remarkable achievements are possible."
+  },
+  {
+    "id": 40,
+    "title": "Rahul & Electric Car",
+    "difficulty": "medium",
+    "topic": "environment",
+    "keywords": ["electric vehicle", "pollution", "charging", "transport"],
+    "text": "Rahul recently bought an electric car after using a petrol car for several years. He noticed that the running cost was lower and the car produced less pollution. At first, he was worried about charging the vehicle, but soon found charging stations in many parts of the city. His positive experience encouraged some of his friends to consider buying electric vehicles in the future."
+  },
+  {
+    "id": 41,
+    "title": "Solar-Powered Stadium",
+    "difficulty": "hard",
+    "topic": "renewable energy",
+    "keywords": ["solar", "stadium", "renewable", "environment"],
+    "text": "A sports stadium in Japan installed thousands of solar panels on its roof to generate electricity. The energy produced was used to power the lights and other facilities during events. This helped reduce electricity costs and made the stadium more environmentally friendly. The project showed how renewable energy can be used in public places to protect the environment and save resources."
+  },
+  {
+    "id": 42,
+    "title": "Suresh & UPI Payments",
+    "difficulty": "easy",
+    "topic": "digital payments",
+    "keywords": ["UPI", "QR code", "digital payments", "transactions"],
+    "text": "Suresh owned a small grocery shop in his village. Earlier, most customers paid in cash, but he often found it difficult to arrange change. After he started accepting UPI payments, customers could pay quickly by scanning a QR code. The payment was received instantly, making transactions easier for both Suresh and his customers. Soon, more shopkeepers in the village also started using UPI."
+  }
+
 ]
