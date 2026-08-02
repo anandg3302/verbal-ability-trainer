@@ -303,8 +303,29 @@ textarea {
 .progress-meta {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 12px;
   margin-bottom: 8px;
   color: var(--muted);
+}
+
+.timer-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-soft);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.timer-pill.warning {
+  color: #b45309;
+  border-color: #f59e0b;
+  background: #fff7ed;
 }
 
 .progress-bar {

@@ -9,6 +9,8 @@ const sentenceModule = (() => {
     submitted: false,
     selectedAnswer: null,
     bookmarked: [],
+    questionTimerId: null,
+    questionTimeLeft: 30,
     attempts: [],
     timer: 20 * 60,
     testMode: false,
@@ -111,6 +113,47 @@ const sentenceModule = (() => {
     }));
   }
 
+  function clearQuestionTimer() {
+    if (state.questionTimerId) {
+      window.clearInterval(state.questionTimerId);
+      state.questionTimerId = null;
+    }
+  }
+
+  function updateTimerDisplay() {
+    const timerElement = document.getElementById("sentenceTimer");
+    if (!timerElement) return;
+
+    const safeTime = Math.max(0, state.questionTimeLeft);
+    timerElement.textContent = `${String(safeTime).padStart(2, "0")}s`;
+    timerElement.classList.toggle("warning", safeTime <= 10);
+  }
+
+  function startQuestionTimer() {
+    const filteredQuestions = getFilteredQuestions();
+    const currentQuestion = filteredQuestions[state.currentIndex] || filteredQuestions[0];
+
+    if (!currentQuestion || state.submitted) {
+      updateTimerDisplay();
+      return;
+    }
+
+    clearQuestionTimer();
+    state.questionTimeLeft = 30;
+    state.lastStartedAt = Date.now();
+    updateTimerDisplay();
+
+    state.questionTimerId = window.setInterval(() => {
+      state.questionTimeLeft -= 1;
+      updateTimerDisplay();
+
+      if (state.questionTimeLeft <= 0) {
+        clearQuestionTimer();
+        submitAnswer(true);
+      }
+    }, 1000);
+  }
+
   function render() {
     if (!state.questions.length) {
       loadQuestions();
@@ -129,6 +172,12 @@ const sentenceModule = (() => {
 
     const progressPercent = filteredQuestions.length ? Math.round(((state.currentIndex + 1) / filteredQuestions.length) * 100) : 0;
     progress.style.width = `${Math.min(100, progressPercent)}%`;
+    clearQuestionTimer();
+    if (!state.submitted && currentQuestion) {
+      startQuestionTimer();
+    } else {
+      updateTimerDisplay();
+    }
     questionNumber.textContent = `Question ${state.currentIndex + 1}/${filteredQuestions.length || 1}`;
     topicText.textContent = currentQuestion.topic;
     difficultyText.textContent = currentQuestion.difficulty;
@@ -191,13 +240,14 @@ const sentenceModule = (() => {
     render();
   }
 
-  function submitAnswer() {
+  function submitAnswer(autoSubmitted = false) {
     const filteredQuestions = getFilteredQuestions();
     if (!filteredQuestions.length) return;
     const question = filteredQuestions[state.currentIndex];
-    if (!state.selectedAnswer) return;
+    const hasSelection = Boolean(state.selectedAnswer);
+    if (!hasSelection && !autoSubmitted) return;
 
-    const isCorrect = state.selectedAnswer === question.answer;
+    const isCorrect = hasSelection && state.selectedAnswer === question.answer;
     const startedAt = Date.now() - (state.lastStartedAt || Date.now());
     state.lastStartedAt = null;
     const responseTime = Math.max(1, Math.round(startedAt / 1000));
@@ -219,6 +269,7 @@ const sentenceModule = (() => {
       difficulty: question.difficulty,
     });
 
+    clearQuestionTimer();
     state.submitted = true;
     saveState();
     render();
