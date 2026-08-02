@@ -187,6 +187,9 @@ const sentenceModule = (() => {
     questionContainer.innerHTML = `
       <div class="sentence-card">
         <div class="sentence-question">${currentQuestion.question}</div>
+        <div class="sentence-answer-input">
+          <input type="text" id="sentenceAnswerInput" placeholder="Type your answer here..." value="${state.selectedAnswer || ""}" ${state.submitted ? "disabled" : ""} />
+        </div>
         ${showOptions ? `
           <div class="sentence-options">
             ${currentQuestion.options.map((option, index) => `
@@ -197,7 +200,6 @@ const sentenceModule = (() => {
             `).join("")}
           </div>
         ` : ""}
-        }
         ${state.submitted || state.questionTimeLeft <= 0 ? `
           <div class="sentence-feedback">
             <p><strong>Answer:</strong> ${currentQuestion.answer}</p>
@@ -207,6 +209,14 @@ const sentenceModule = (() => {
         ` : ""}
       </div>
     `;
+
+    const answerInput = document.getElementById("sentenceAnswerInput");
+    if (answerInput) {
+      answerInput.addEventListener("input", (event) => {
+        state.selectedAnswer = event.target.value.trim();
+        saveState();
+      });
+    }
 
     const previousBtn = document.getElementById("sentencePrevBtn");
     const nextBtn = document.getElementById("sentenceNextBtn");
