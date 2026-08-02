@@ -5,7 +5,7 @@ const state = {
   passages: [],
   currentPassage: null,
   currentMode: "random",
-  difficulty: "medium",
+  difficulty: "all",
   phase: "ready",
   readingTime: 30,
   writingTime: 90,
@@ -116,6 +116,9 @@ function loadState() {
   try {
     const parsed = JSON.parse(saved);
     Object.assign(state, parsed);
+    if (!["easy", "medium", "hard", "all"].includes(state.difficulty)) {
+      state.difficulty = "all";
+    }
   } catch (error) {
     console.warn("Unable to parse stored state", error);
   }
@@ -532,8 +535,12 @@ function calculateAverageScoreBreakdown() {
 }
 
 function getFilteredPassages() {
-  const filtered = state.passages.filter((passage) => state.difficulty === "all" || passage.difficulty === state.difficulty);
-  return filtered;
+  const normalizedDifficulty = typeof state.difficulty === "string" ? state.difficulty.toLowerCase() : "all";
+  if (normalizedDifficulty === "all") {
+    return state.passages;
+  }
+
+  return state.passages.filter((passage) => passage.difficulty === normalizedDifficulty);
 }
 
 function formatTime(seconds) {
