@@ -182,18 +182,23 @@ const sentenceModule = (() => {
     topicText.textContent = currentQuestion.topic;
     difficultyText.textContent = currentQuestion.difficulty;
 
+    const showOptions = state.submitted || state.questionTimeLeft <= 0;
+
     questionContainer.innerHTML = `
       <div class="sentence-card">
         <div class="sentence-question">${currentQuestion.question}</div>
-        <div class="sentence-options">
-          ${currentQuestion.options.map((option, index) => `
-            <label class="option-item ${state.submitted && currentQuestion.answer === option ? "correct" : ""} ${state.submitted && state.selectedAnswer === option && currentQuestion.answer !== option ? "incorrect" : ""}">
-              <input type="radio" name="sentenceOption" value="${option}" ${state.selectedAnswer === option ? "checked" : ""} ${state.submitted ? "disabled" : ""} />
-              <span>${String.fromCharCode(65 + index)}. ${option}</span>
-            </label>
-          `).join("")}
-        </div>
-        ${state.submitted ? `
+        ${showOptions ? `
+          <div class="sentence-options">
+            ${currentQuestion.options.map((option, index) => `
+              <label class="option-item ${state.submitted && currentQuestion.answer === option ? "correct" : ""} ${state.submitted && state.selectedAnswer === option && currentQuestion.answer !== option ? "incorrect" : ""}">
+                <input type="radio" name="sentenceOption" value="${option}" ${state.selectedAnswer === option ? "checked" : ""} ${state.submitted ? "disabled" : ""} />
+                <span>${String.fromCharCode(65 + index)}. ${option}</span>
+              </label>
+            `).join("")}
+          </div>
+        ` : ""}
+        }
+        ${state.submitted || state.questionTimeLeft <= 0 ? `
           <div class="sentence-feedback">
             <p><strong>Answer:</strong> ${currentQuestion.answer}</p>
             <p><strong>Explanation:</strong> ${currentQuestion.explanation}</p>
