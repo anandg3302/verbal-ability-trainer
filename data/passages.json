@@ -336,5 +336,69 @@
     "keywords": ["UPI", "QR code", "digital payments", "transactions"],
     "text": "Suresh owned a small grocery shop in his village. Earlier, most customers paid in cash, but he often found it difficult to arrange change. After he started accepting UPI payments, customers could pay quickly by scanning a QR code. The payment was received instantly, making transactions easier for both Suresh and his customers. Soon, more shopkeepers in the village also started using UPI."
   }
+  ,{
+  "id": 43,
+  "title": "Keith & Laundry Mistake",
+  "difficulty": "easy",
+  "topic": "daily life",
+  "keywords": ["laundry", "care labels", "wool sweater", "mistake"],
+  "text": "Keith threw all of his dirty laundry into the washing machine without reading the care labels. His expensive wool sweater shrunk down so much in the hot water that it looked like it belonged to a toddler."
+},
+{
+  "id": 44,
+  "title": "Fire Alarm During Final Exam",
+  "difficulty": "medium",
+  "topic": "education",
+  "keywords": ["exam", "fire alarm", "evacuation", "popcorn"],
+  "text": "The university students were halfway through their difficult final exam when a loud siren echoed through the halls. Someone had burnt popcorn in the lounge microwave, triggering the fire alarm and forcing everyone to evacuate the building."
+},
+{
+  "id": 45,
+  "title": "Alice Read the Wrong Chapter",
+  "difficulty": "easy",
+  "topic": "education",
+  "keywords": ["history", "chapter", "study", "mistake"],
+  "text": "Alice stayed up until 2:00 AM reading a heavy fifty-page chapter for her history class. When she arrived at school the next morning, the teacher informed her she had actually read the wrong chapter entirely."
+},
+{
+  "id": 46,
+  "title": "Victor Runs Out of Fuel",
+  "difficulty": "medium",
+  "topic": "transportation",
+  "keywords": ["fuel", "gas station", "car", "risk"],
+  "text": "Victor noticed his car's gas light was on, but he decided to risk driving ten more miles to a cheaper gas station. His car ended up sputtering to a halt on the side of the road just two miles short of his destination."
+},
+{
+  "id": 47,
+  "title": "The Missing TV Remote",
+  "difficulty": "easy",
+  "topic": "daily life",
+  "keywords": ["remote", "television", "search", "refrigerator"],
+  "text": "Megan wanted to change the channel on the television but couldn't find the remote control anywhere in the living room. After searching for ten minutes, she found it inside the refrigerator next to the milk jug."
+},
+{
+  "id": 48,
+  "title": "John Forgets the Client's Name",
+  "difficulty": "medium",
+  "topic": "communication",
+  "keywords": ["networking", "client", "conversation", "memory"],
+  "text": "At the networking event, John shook hands with a potential client who clearly stated his name was Robert. Five seconds into the conversation, John realized he had entirely forgotten the man's name and was too embarrassed to ask again."
+},
+{
+  "id": 49,
+  "title": "Sophia's Expired Milk",
+  "difficulty": "easy",
+  "topic": "daily life",
+  "keywords": ["milk", "cereal", "expired", "shopping"],
+  "text": "Sophia rushed into the convenience store, bought a carton of milk, and poured herself a large bowl of cereal at home. She took one bite and immediately spat it out, realizing the milk had expired two weeks ago."
+},
+{
+  "id": 50,
+  "title": "Last-Second Basketball Shot",
+  "difficulty": "medium",
+  "topic": "sports",
+  "keywords": ["basketball", "match", "shot", "team"],
+  "text": "The basketball team was losing by one point with only three seconds left on the clock. The star player took a desperate shot from the half-court line; the ball bounced on the rim twice before falling out."
+}
 
 ]
